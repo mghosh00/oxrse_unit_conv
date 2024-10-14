@@ -8,6 +8,9 @@ minute = Unit(name='minute', abbr='min', si=second, to_si_fun=lambda n: n * 60)
 hour = Unit(name='hour', abbr='h', si=second, to_si_fun=lambda n: n * 3600)
 h = hour
 
+# day
+day = Unit(name='day', abbr='day', si=second, to_si_fun=lambda n: n * 86400)
+
 # meter
 kilometer = Unit(name='kilometer', abbr="km", si=meter, to_si_fun=lambda n: n * 1000)
 km = kilometer
